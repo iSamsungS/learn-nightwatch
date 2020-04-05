@@ -28,13 +28,13 @@ module.exports = {
     browser.useCss();
 
     browser
-      // .pause(2000)
-      // .clearValue('#i_am_a_textbox')
-      // .setValue('#i_am_a_textbox', '00000000000')
-      // .pause(2000)
-      // .clearValue('#i_am_a_textbox')
-      // .setValue('#i_am_a_textbox', '11111111111111')
-      // .pause(2000)
+      .pause(2000)
+      .clearValue('#i_am_a_textbox')
+      .setValue('#i_am_a_textbox', '00000000000')
+      .pause(2000)
+      .clearValue('#i_am_a_textbox')
+      .setValue('#i_am_a_textbox', '11111111111111')
+      .pause(2000)
       .clearValue("#i_am_a_textbox")
       .setValue("#i_am_a_textbox", "nightwatch roolz!")
       .saveScreenshot(`${config.imgpath(browser)}nightwatch-roolz.png`)
